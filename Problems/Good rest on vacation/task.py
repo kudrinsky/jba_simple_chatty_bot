@@ -1,0 +1,5 @@
+duration = abs(int(input()))
+food_per_day = abs(int(input()))
+one_way_flight = abs(int(input()))
+night_cost = abs(int(input()))
+print(one_way_flight * 2 + duration * food_per_day + night_cost * (duration - 1))

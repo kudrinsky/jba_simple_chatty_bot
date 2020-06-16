@@ -1,0 +1,6 @@
+length = abs(int(input()))
+width = abs(int(input()))
+height = abs(int(input()))
+print(4 * (length + width + height))
+print(2 * (length * width + width * height + length * height))
+print(length * width * height)
